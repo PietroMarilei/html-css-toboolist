@@ -20,7 +20,9 @@ header>img{
     vertical-align: middle;
 }
 header{
-    padding: 0rem 0rem 0rem 2rem;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 0rem 1rem 2rem;
+    margin-bottom: 1rem ;
 }
 header>h1{
     vertical-align: middle;
@@ -33,17 +35,19 @@ header>h1{
 /* main propeties */
 
 main{
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     
 }
 
 /* buttons main propeties */
 
 .top-buttons-section{
+    background-color: rgb(255, 255, 255);
     padding-left: 3rem;
     padding-top: 1rem;
     padding-bottom: 0.8rem;
     border-radius: 10px 10px 0 0;
+
 }
 .button{
     border: 0px;
@@ -52,18 +56,32 @@ main{
 
 }
 .blue.button {
+    border: 3px solid;
+    border-color: rgb(89, 179, 252);
     background-color: rgb(89, 179, 252);
     color: white;
 }
 
 .white.button{
+    border: 3px solid;
     background-color: white;
-    border-color: rgb(218, 218, 218);
+    border-color: rgb(214, 214, 214);
+    color: rgb(135, 134, 134);
+    
 }
 
+#small-hr{
+    border: 1px solid;
+    border-color: rgb(214, 214, 214);
+   
+}
+
+
+/* -------------------------------- */
 /* task prop */
 .task-section{
     padding-left: 3rem;
+    background-color: rgb(255, 255, 255);
     
 }
 .checkmark{
@@ -71,13 +89,25 @@ main{
     color: rgb(13, 200, 48);
     font-size: 0.8rem;
     border-radius: 50%;
-    width: 1rem;
-    height: 1rem;
-    
+     width: 1.3rem;
+    height: 1.3rem;
+
     border: 2px solid;
-    line-height: 1rem;
+    line-height: 1.1rem;
     text-align: center;
     
+}
+.xmark{
+     display:inline-block;
+    color: rgb(251, 8, 8);
+    font-size: 0.8rem;
+    border-radius: 50%;
+    width: 1.3rem;
+    height: 1.3rem;
+
+    border: 2px solid;
+    line-height: 1.1rem;
+    text-align: center;
 
 }
 .task{
