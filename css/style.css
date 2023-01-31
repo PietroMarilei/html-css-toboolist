@@ -72,7 +72,11 @@ main{
     width: 1rem;
 
 }
-
+.task{
+    vertical-align: middle;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 .task-text{
     padding-left: 1rem;
 }
@@ -88,5 +92,31 @@ main{
 
 /*  task02*/
 .goals-icon{
-    
+    color: white;
+    font-size: 0.7rem;
+    vertical-align: middle;
+    border: 0px;
+    padding: 0.6rem;
+    background-color: rgb(176, 73, 231) ;
+    border-radius: 15px;
+}
+/* task03 */
+.recruiting-icon{
+    color: white;
+    font-size: 0.7rem;
+    vertical-align: middle;
+    border: 0px;
+    padding: 0.6rem;
+    background-color: rgb(9, 173, 135) ;
+    border-radius: 15px;
+}
+/* task04 */
+.mobile-icon{
+    color: white;
+    font-size: 0.7rem;
+    vertical-align: middle;
+    border: 0px;
+    padding: 0.6rem;
+    background-color: rgb(224, 119, 15) ;
+    border-radius: 15px;
 }
