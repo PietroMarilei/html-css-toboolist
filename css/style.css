@@ -3,7 +3,11 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgba(217, 218, 218, 0.504);
+    
+}
+
+body{
+    background-color: rgb(217, 218, 218);
 }
 
 .container-reducer{
@@ -23,9 +27,7 @@ header>h1{
     display: inline-block;
     
 }
-header>hr{
-    border: rgba(205, 205, 205, 0.247) solid 1px;
-}
+
 
 
 /* main propeties */
@@ -64,12 +66,18 @@ main{
     padding-left: 3rem;
     
 }
-#checkmark{
+.checkmark{
+    display:inline-block;
     color: rgb(13, 200, 48);
+    font-size: 0.8rem;
     border-radius: 50%;
-    border: 2px solid;
-    text-align: center;
     width: 1rem;
+    height: 1rem;
+    
+    border: 2px solid;
+    line-height: 1rem;
+    text-align: center;
+    
 
 }
 .task{
@@ -80,43 +88,69 @@ main{
 .task-text{
     padding-left: 1rem;
 }
+.task-section{
+    padding: 3rem;
+}
+/*  icon propeties*/
  .editorial-icon{
     color: white;
     font-size: 0.7rem;
     vertical-align: middle;
     border: 0px;
-    padding: 0.6rem;
+    padding: 0.3rem 0.6rem;
     background-color: rgb(89, 179, 252) ;
     border-radius: 15px;
  }
 
-/*  task02*/
+
 .goals-icon{
     color: white;
     font-size: 0.7rem;
     vertical-align: middle;
     border: 0px;
-    padding: 0.6rem;
+    padding: 0.3rem 0.6rem;
     background-color: rgb(176, 73, 231) ;
     border-radius: 15px;
 }
-/* task03 */
+
 .recruiting-icon{
     color: white;
     font-size: 0.7rem;
     vertical-align: middle;
     border: 0px;
-    padding: 0.6rem;
+    padding: 0.3rem 0.6rem;
     background-color: rgb(9, 173, 135) ;
     border-radius: 15px;
 }
-/* task04 */
+
 .mobile-icon{
     color: white;
     font-size: 0.7rem;
     vertical-align: middle;
     border: 0px;
-    padding: 0.6rem;
+    padding: 0.3rem 0.6rem;
     background-color: rgb(224, 119, 15) ;
     border-radius: 15px;
+}
+
+
+.website-icon{
+    color: white;
+    font-size: 0.7rem;
+    vertical-align: middle;
+    border: 0px;
+    padding: 0.3rem 0.6rem;
+    background-color: rgb(194, 48, 199) ;
+    border-radius: 15px;
+}
+
+.sales-icon{
+       color: white;
+    font-size: 0.7rem;
+    vertical-align: middle;
+    border: 0px;
+    padding: 0.3rem 0.6rem;
+    background-color: rgb(175, 219, 13) ;
+    border-radius: 15px;
+
 }
