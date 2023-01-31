@@ -92,65 +92,38 @@ main{
     padding: 3rem;
 }
 /*  icon propeties*/
- .editorial-icon{
+
+.icon{
     color: white;
     font-size: 0.7rem;
     vertical-align: middle;
     border: 0px;
     padding: 0.3rem 0.6rem;
-    background-color: rgb(89, 179, 252) ;
     border-radius: 15px;
+}
+ .editorial.icon{
+        background-color: rgb(89, 179, 252) ;
  }
 
 
-.goals-icon{
-    color: white;
-    font-size: 0.7rem;
-    vertical-align: middle;
-    border: 0px;
-    padding: 0.3rem 0.6rem;
+.goals.icon{
     background-color: rgb(176, 73, 231) ;
-    border-radius: 15px;
 }
 
-.recruiting-icon{
-    color: white;
-    font-size: 0.7rem;
-    vertical-align: middle;
-    border: 0px;
-    padding: 0.3rem 0.6rem;
-    background-color: rgb(9, 173, 135) ;
-    border-radius: 15px;
+.recruiting.icon{
+    background-color: rgb(9, 173, 135) ; 
 }
 
-.mobile-icon{
-    color: white;
-    font-size: 0.7rem;
-    vertical-align: middle;
-    border: 0px;
-    padding: 0.3rem 0.6rem;
+.mobile.icon{
     background-color: rgb(224, 119, 15) ;
-    border-radius: 15px;
 }
 
 
-.website-icon{
-    color: white;
-    font-size: 0.7rem;
-    vertical-align: middle;
-    border: 0px;
-    padding: 0.3rem 0.6rem;
+.website.icon{
     background-color: rgb(194, 48, 199) ;
-    border-radius: 15px;
 }
 
-.sales-icon{
-       color: white;
-    font-size: 0.7rem;
-    vertical-align: middle;
-    border: 0px;
-    padding: 0.3rem 0.6rem;
+.sales.icon{
     background-color: rgb(175, 219, 13) ;
-    border-radius: 15px;
-
 }
+/* end icon prop */
