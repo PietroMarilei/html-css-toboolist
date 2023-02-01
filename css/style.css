@@ -39,6 +39,10 @@ main{
     
 }
 
+.unordered-list{
+    list-style-type: none;
+}
+
 /* buttons main propeties */
 
 .top-buttons-section{
@@ -89,7 +93,7 @@ main{
     color: rgb(13, 200, 48);
     font-size: 0.8rem;
     border-radius: 50%;
-     width: 1.3rem;
+    width: 1.3rem;
     height: 1.3rem;
 
     border: 2px solid;
@@ -98,7 +102,7 @@ main{
     
 }
 .xmark{
-     display:inline-block;
+    display:inline-block;
     color: rgb(251, 8, 8);
     font-size: 0.8rem;
     border-radius: 50%;
