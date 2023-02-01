@@ -1,51 +1,56 @@
 /* common utilities */
-*{  
-    font-family: 'Roboto', sans-serif;
+* {
+
     margin: 0;
     box-sizing: border-box;
-    
+
 }
 
-body{
+body {
+    font-family: 'Roboto', sans-serif;
     background-color: rgb(217, 218, 218);
 }
 
-.container-reducer{
+.container-reducer {
     width: 80%;
     margin: auto;
 }
 
 /* header propeties */
-header>img{
+header>img {
     vertical-align: middle;
 }
-header{
+
+header {
     background-color: rgb(255, 255, 255);
     padding: 1rem 0rem 1rem 2rem;
-    margin-bottom: 1rem ;
+    margin-bottom: 1rem;
+
 }
-header>h1{
+
+header>h1 {
     vertical-align: middle;
     display: inline-block;
-    
+
+
 }
 
 
 
 /* main propeties */
 
-main{
+main {
     /* background-color: rgb(255, 255, 255); */
-    
+
 }
 
-.unordered-list{
+.unordered-list {
     list-style-type: none;
 }
 
 /* buttons main propeties */
 
-.top-buttons-section{
+.top-buttons-section {
     background-color: rgb(255, 255, 255);
     padding-left: 3rem;
     padding-top: 1rem;
@@ -53,12 +58,14 @@ main{
     border-radius: 10px 10px 0 0;
 
 }
-.button{
+
+.button {
     border: 0px;
     border-radius: 8px;
     padding: 0.4rem 0.8rem;
 
 }
+
 .blue.button {
     border: 3px solid;
     border-color: rgb(89, 179, 252);
@@ -66,30 +73,31 @@ main{
     color: white;
 }
 
-.white.button{
+.white.button {
     border: 3px solid;
     background-color: white;
     border-color: rgb(214, 214, 214);
     color: rgb(135, 134, 134);
-    
+
 }
 
-#small-hr{
+#small-hr {
     border: 1px solid;
     border-color: rgb(214, 214, 214);
-   
+
 }
 
 
 /* -------------------------------- */
 /* task prop */
-.task-section{
+.task-section {
     padding-left: 3rem;
     background-color: rgb(255, 255, 255);
-    
+
 }
-.checkmark{
-    display:inline-block;
+
+.checkmark {
+    display: inline-block;
     color: rgb(13, 200, 48);
     font-size: 0.8rem;
     border-radius: 50%;
@@ -99,10 +107,11 @@ main{
     border: 2px solid;
     line-height: 1.1rem;
     text-align: center;
-    
+
 }
-.xmark{
-    display:inline-block;
+
+.xmark {
+    display: inline-block;
     color: rgb(251, 8, 8);
     font-size: 0.8rem;
     border-radius: 50%;
@@ -114,20 +123,24 @@ main{
     text-align: center;
 
 }
-.task{
+
+.task {
     vertical-align: middle;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-.task-text{
+
+.task-text {
     padding-left: 1rem;
 }
-.task-section{
+
+.task-section {
     padding: 3rem;
 }
+
 /*  icon propeties*/
 
-.icon{
+.icon {
     color: white;
     font-size: 0.7rem;
     vertical-align: middle;
@@ -135,29 +148,31 @@ main{
     padding: 0.3rem 0.6rem;
     border-radius: 15px;
 }
- .editorial.icon{
-        background-color: rgb(89, 179, 252) ;
- }
 
-
-.goals.icon{
-    background-color: rgb(176, 73, 231) ;
-}
-
-.recruiting.icon{
-    background-color: rgb(9, 173, 135) ; 
-}
-
-.mobile.icon{
-    background-color: rgb(224, 119, 15) ;
+.editorial.icon {
+    background-color: rgb(89, 179, 252);
 }
 
 
-.website.icon{
-    background-color: rgb(194, 48, 199) ;
+.goals.icon {
+    background-color: rgb(176, 73, 231);
 }
 
-.sales.icon{
-    background-color: rgb(175, 219, 13) ;
+.recruiting.icon {
+    background-color: rgb(9, 173, 135);
 }
+
+.mobile.icon {
+    background-color: rgb(224, 119, 15);
+}
+
+
+.website.icon {
+    background-color: rgb(194, 48, 199);
+}
+
+.sales.icon {
+    background-color: rgb(175, 219, 13);
+}
+
 /* end icon prop */
